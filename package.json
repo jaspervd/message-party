@@ -1,0 +1,34 @@
+{
+  "name": "message-party",
+  "version": "1.0.0",
+  "description": "Simple webapp for a message wall, inspired by TMF Chat and for Jeugdhuis Argus",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/jaspervd/message-party.git",
+  "keywords": [
+    "webapp",
+    "message wall",
+    "node.js",
+    "socket.io"
+  ],
+  "author": "Jasper Van Damme <jasper.van.damme@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaspervd/message-party/issues"
+  },
+  "homepage": "https://github.com/jaspervd/message-party#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.4.1"
+  }
+}
